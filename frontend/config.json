@@ -32,7 +32,7 @@
         "downloadGameClients": [
           {
             "imageUrl": "https://www.pekora.zip/img/player.png",
-            "title": "Download the Pekora Client for Windows",
+            "title": "Download the Pekora (Project X) Client for Windows",
             "url": "https://github.com/shikataganaii/Pekora-Bootstrapper/releases"
           },
 		  {
@@ -42,22 +42,22 @@
           },
           {
             "imageUrl": "https://www.pekora.zip/img/studio.png",
-            "title": "Download the Pekora 2017 Studio for Windows (Unstable, 2018 recommended)",
+            "title": "Download the Pekora (Project X) 2017 Studio for Windows (Unstable, 2018 recommended)",
             "url": "https://setup.pekora.zip/PekoraStudio2017.zip"
           },
           {
             "imageUrl": "https://www.pekora.zip/img/studio.png",
-            "title": "Download the Pekora 2018 Studio for Windows",
+            "title": "Download the Pekora (Project X) 2018 Studio for Windows",
             "url": "https://setup.pekora.zip/PekoraStudio2018.zip"
           },
           {
             "imageUrl": "https://www.pekora.zip/img/studio.png",
-            "title": "Download the Pekora 2020 Studio for Windows",
+            "title": "Download the Pekora (Project X) 2020 Studio for Windows",
             "url": "https://setup.pekora.zip/PekoraStudio2020.zip"
           },
           {
             "imageUrl": "https://www.pekora.zip/img/studio.png",
-            "title": "Download the Pekora 2021 Studio for Windows",
+            "title": "Download the Pekora (Project X) 2021 Studio for Windows",
             "url": "https://setup.pekora.zip/PekoraStudio2021.zip"
           }
         ]
