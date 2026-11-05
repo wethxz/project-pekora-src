@@ -6,15 +6,15 @@ import UserProfileStore from "../../../components/userProfile/stores/UserProfile
 import { getUserInfo } from "../../../services/users";
 
 const UserProfilePage = ({ username, userId, description, ...props }) => {
-    const ogTitle = username + "'s Profile" || "Marine";
+    const ogTitle = username + "'s Profile" || "Project Pekora";
     const ogUrl = userId ? `https://silrev.biz/users/${userId}/profile` : '';
-    const ogDesc = description || 'Join Marine and explore together!';
+    const ogDesc = description || 'Join Project Pekora and explore together!';
     
     return (
         <>
             {username && (
                 <Head>
-                    <title>{ogTitle} - Marine</title>
+                    <title>{ogTitle} - Project Pekora</title>
                     <meta property="og:title" content={ogTitle}/>
                     <meta property="og:url" content={ogUrl}/>
                     <meta property="og:type" content="profile"/>
@@ -44,7 +44,7 @@ export async function getServerSideProps(context) {
     // we will get the username, desc
     try {
         const info = await getUserInfo({ userId });
-        const username = info.name || "Marine";
+        const username = info.name || "Project Pekora";
         const description = info.description || "No description available";
         return {
             props: {
@@ -57,8 +57,8 @@ export async function getServerSideProps(context) {
         console.error("Error fetching user info in profile.js" + error);
         return {
             props: {
-                username: "Marine",
-                description: "Join Marine and explore together!",
+                username: "Project Pekora",
+                description: "Join Project Pekora and explore together!",
                 userId
             }
         };
