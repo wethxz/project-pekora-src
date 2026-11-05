@@ -51,7 +51,7 @@ function ThankYouPage() {
                         lineHeight: "1.3em",
                         fontSize: 48,
                         fontWeight: 300,
-                    }}>Thank you for installing Marine.</h1>
+                    }}>Thank you for installing Project Pekora.</h1>
                     <span style={{
                         width: "500px",
                         margin: "50px auto",
@@ -62,7 +62,7 @@ function ThankYouPage() {
                     }}>It"s time to play! You can now browse and play the most popular games on Marine.</span>
                     <Link href="/games">
                         <a href="/games">
-                            <ActionButton label="Browse Marine Games" buttonStyle={buttonStyles.newBuyButton}
+                            <ActionButton label="Browse Project Pekora Games" buttonStyle={buttonStyles.newBuyButton}
                                           className={s.gamesBtn}/>
                         </a>
                     </Link>
